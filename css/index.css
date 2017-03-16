@@ -1,0 +1,99 @@
+body {
+  background: #ffffff;
+}
+.header {
+  height: 223px;
+  background: url(../img/images/4.jpg) no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+  position: relative;
+}
+.header img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar-collapse .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+.navbar-collapse {
+  text-align: center;
+  border-bottom: none;
+}
+.navbar-collapse a {
+  color: #666;
+}
+.collapse {
+  background: #fff;
+}
+.main {
+  background: #ebebeb;
+}
+.main .left {
+  background: #fff;
+}
+.main .left h1 {
+  font-size: 33px;
+  color: #303030;
+  text-align: center;
+}
+.main .left h2 {
+  font-size: 12px;
+  color: #959595;
+  text-align: center;
+}
+.main .left h2 span {
+  color: #e67e22;
+}
+.main .left p {
+  font-size: 17px;
+  color: #444443;
+}
+.main .left .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.main .left .btn {
+  padding: 7px 14px;
+  border-radius: 2px;
+  background: orange;
+}
+.main .left bootstrap.min.css:5 .btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.main .right {
+  margin-top: 17px;
+  background: #fff;
+}
+.main .right h4 {
+  font-size: 17px;
+  color: #303030;
+  line-height: 34px;
+  padding-left: 30px;
+}
+.main .right p {
+  padding-left: 30px;
+  color: #f5b24c;
+  font-size: 12px;
+}
